@@ -3,7 +3,9 @@
 구성**하는 방식을 말합니다. 객체(Object)는 속성과 메서드를 가지며, 이는 추상적인
 개념입니다.
 
-> [!NOTE] <strong>프로그래밍 언어별 객체(Object)</strong>
+> [!NOTE]
+>
+> <strong>프로그래밍 언어별 객체(Object)</strong>
 >
 > 서술의 편의를 위해 객체를 Java의 <strong>클래스(class)</strong>로 설명하지만, 객체는 반드시 클래스에만 국한되지 않는다는 점을 알아야 합니다.
 >
@@ -23,7 +25,9 @@ OOP의 탄생은 직전의 <strong>절차적 프로그래밍(Procedural Programm
 
 이로 인해 소규모 프로젝트나 단순한 작업에 유리했던 절차적 프로그래밍의 문제점을 해결하기 위해 구조적 프로그래밍 방식이 제안되었고, 이후 객체 지향 프로그래밍(OOP)이 탄생하게 되었습니다.
 
-> [!NOTE] <strong>OOP 이전의 해결책, 구조적 프로그래밍</strong>
+> [!NOTE]
+>
+> <strong>OOP 이전의 해결책, 구조적 프로그래밍</strong>
 >
 > <strong>구조적 프로그래밍(Structured programming)</strong>은 앞서 말했던 **프로그램의 가독성과 유지보수성 문제**를 해결하기 위해 프로그램을 세 가지 기본 <strong>제어 구조(순차, 선택, 반복)</strong>로 구성하는 프로그램 패러다임입니다.
 >
