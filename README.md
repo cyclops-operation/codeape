@@ -1,3 +1,5 @@
+&nbsp;
+
 <div align="center">
 <img src="./logo.png" alt="codeape_logo_image" width="240" />
 
