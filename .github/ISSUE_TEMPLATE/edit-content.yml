@@ -1,0 +1,31 @@
+name: 내용 수정 및 추가
+description: 기존에 작성된 내용을 수정하거나 부족한 부분을 추가합니다.
+title: "[YY/MM/DD]: "
+body:
+  - type: dropdown
+    attributes:
+      label: "유형"
+      description: "수정 유형을 선택해주세요."
+      options:
+        - "내용상 오류 수정"
+        - "맞춤법 및 문법 수정"
+        - "부족한 내용 추가"
+        - "기타"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: "수정 대상"
+      description: "카테고리와 주제를 확인할 수 있도록 수정 대상을 작성해주세요."
+      placeholder: "ex) frontend/bundler-basic"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "수정 내용"
+      description: "기존 내용을 어떤 식으로 수정할 것인지 작성해주세요."
+      placeholder: "ex) 이번 달에 업데이트 된 내용에 대해 반영하고, 3번째 줄 문법을 수정합니다."
+    validations:
+      required: true
