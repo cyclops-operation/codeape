@@ -1,6 +1,6 @@
 name: 내용 수정 및 추가
 description: 기존에 작성된 내용을 수정하거나 부족한 부분을 추가합니다.
-title: "[YY/MM/DD]: "
+title: "[YYMMDD]: "
 body:
   - type: dropdown
     attributes:

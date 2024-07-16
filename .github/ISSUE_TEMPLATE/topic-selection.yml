@@ -1,6 +1,6 @@
 name: 주제 선정하기
 description: 학습 주제 선정을 위한 이슈 생성을 합니다.
-title: "[YY/MM/DD]: "
+title: "[YYMMDD]: "
 body:
   - type: markdown
     attributes:
