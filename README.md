@@ -1,9 +1,13 @@
-<div style="display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 24px; padding: 16px 0;">
+<div align="center">
 <img src="./logo.png" alt="codeape_logo_image" width="240" />
 
-<p style="border: none; color: lightgray; margin: 0; font-size: 18px;">No code monkey, Be code apes</p>
+&nbsp;
 
-<div style="display: flex; justify-content: center;">
+<h3>No code monkey, Be code apes</p>
+
+&nbsp;
+
+<div>
 
 ![Contributors](https://img.shields.io/github/contributors/cyclops-operation/codeape)
 ![Forks](https://img.shields.io/github/forks/cyclops-operation/codeape?style=social)
