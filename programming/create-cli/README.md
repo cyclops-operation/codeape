@@ -2,13 +2,17 @@
 
 <strong>CLI(Command line interface)</strong>란 명령 줄 인터페이스 또는 명령어 인터페이스라고 불리며, 커맨드 라인이라고 불리는 **텍스트 줄을 입력하여 사용자와 컴퓨터가 상호 작용하는 방식**을 의미합니다.
 
-> [!NOTE] **Vite 프로젝트에서 `vite` 만 입력했을 때, `command not found` 가 나오는 이유**
+> [!NOTE]
+>
+> **Vite 프로젝트에서 `vite` 만 입력했을 때, `command not found` 가 나오는 이유**
 >
 > 단지 `vite` 을 입력하고 해당 명령어가 실행되려면 환경변수 `PATH` 에 해당 실행 파일이 존재해야합니다. 반면에, `npm run` 혹은 `yarn` 이후 명령어를 입력했을 때 동작하는 이유는 `npm` 혹은 `yarn` 이 수행하는 역할 덕분입니다.
 >
 > `npm run` 혹은 `yarn` 과 함께 명령어를 입력하는 경우 실행 파일을 찾는 경로를 해당 프로젝트 내 `node_modules/.bin` 폴더에 있는 명령 실행 파일도 함께 감지하여 실행하게됩니다. 보통 `vite` 의 경우 전역으로 설치되지 않고 해당 프로젝트 내에 지역적으로 설치되기 때문에 그냥 실행하게 된다면 동작하지 않는 것입니다.
 
-> [!IMPORTANT] **`vite` 명령어 뜯어보기**
+> [!IMPORTANT]
+>
+> **`vite` 명령어 뜯어보기**
 >
 > `node_modules/vite` 폴더의 `package.json` 을 살펴보면 `bin` 이라는 프로퍼티에 `vite: "bin/vite.js"` 라고 명시되어 있음을 확인할 수 있습니다. 이어서 해당 폴더 내 `bin/vite.js` 를 확인해보면 앞서 말한 `node_modules/.bin/vite` 파일에 작성되어 있는 명령어가 동일하게 작성되어 있음을 확인할 수 있는데, 이는 `npm` 을 통해 만들어진 **심볼릭 링크**에 해당합니다.
 >
